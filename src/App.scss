@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:700&display=swap");
+
+.App {
+  height: 2000px;
+  background-color: #fff;
+  .container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    .text {
+      color: #fff;
+      font-size: 42px;
+      letter-spacing: -1px;
+      font-weight: 700;
+      font-family: "Be Vietnam", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      position: fixed;
+      z-index: 1;
+      text-align: center;
+      top: 180px;
+      mix-blend-mode: difference;
+      width: 940px;
+    }
+  }
+  .white {
+    position: relative;
+    background: #fff;
+    height: 300px;
+  }
+  .black {
+    background: #000;
+    position: relative;
+    height: 600px;
+    width: 100%;
+  }
+}
